@@ -15,28 +15,28 @@ dependencies:
   cupertino_icons: ^1.0.2
   iconsax: ^0.0.8
   get: ^4.6.5
-  intl: ^0.18.1
+  intl: ^0.20.2
   logger: ^2.0.2+1
   url_launcher:
   http: ^1.1.0
   get_storage: ^2.1.1
   flutter_native_splash: ^2.3.5
   smooth_page_indicator: ^1.1.0
-  carousel_slider: ^4.2.1
-  readmore: ^2.2.0
+  carousel_slider: ^5.1.1
+  readmore: ^3.0.0
   flutter_rating_bar: ^4.0.1
-  lottie: ^2.7.0
-  connectivity_plus: ^5.0.2
+  lottie: ^3.3.2
+  connectivity_plus: ^7.0.0
   shimmer: ^3.0.0
   image_picker: ^1.0.5
   cached_network_image: ^3.3.1
 
 
-  firebase_core: ^2.24.2
-  firebase_auth: ^4.15.3
-  cloud_firestore: ^4.13.6
-  google_sign_in: ^6.2.1
-  firebase_storage: ^11.5.6
+  firebase_core: ^4.2.1
+  firebase_auth: ^6.1.2
+  cloud_firestore: ^6.1.0
+  google_sign_in: ^6.2.2
+  firebase_storage: ^13.0.4
 
 
 
@@ -47,7 +47,7 @@ dev_dependencies:
     sdk: flutter
 
 
-  flutter_lints: ^2.0.0
+  flutter_lints: ^6.0.0
 
 
 flutter:

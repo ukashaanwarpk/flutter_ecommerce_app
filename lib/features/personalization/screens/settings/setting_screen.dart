@@ -30,10 +30,15 @@ class SettingScreen extends StatelessWidget {
                   TAppBar(
                     title: Text(
                       "Account",
-                      style: Theme.of(context).textTheme.headlineMedium!.apply(color: TColors.white),
+                      style: Theme.of(context)
+                          .textTheme
+                          .headlineMedium!
+                          .apply(color: TColors.white),
                     ),
                   ),
-                  TUserProfileTile(onPressed: ()=> Get.to(()=>const ProfileScreen()),),
+                  TUserProfileTile(
+                    onPressed: () => Get.to(() => const ProfileScreen()),
+                  ),
                   const SizedBox(
                     height: TSizes.spaceBtwSections,
                   ),
@@ -55,7 +60,7 @@ class SettingScreen extends StatelessWidget {
                     title: 'My Address',
                     subtitle: 'Set Shopping delivery address',
                     icon: Iconsax.safe_home,
-                    onTap: ()=>Get.to(()=>const UserAddressScreen()),
+                    onTap: () => Get.to(() => const UserAddressScreen()),
                   ),
                   TSettingMenuTile(
                     title: 'My Cart',
@@ -67,7 +72,7 @@ class SettingScreen extends StatelessWidget {
                     title: 'My Orders',
                     subtitle: 'In-progress and Completed orders',
                     icon: Iconsax.bag_tick,
-                    onTap: () => Get.to(()=>const OrderScreen()),
+                    onTap: () => Get.to(() => const OrderScreen()),
                   ),
                   TSettingMenuTile(
                     title: 'Bank Account',
@@ -104,38 +109,54 @@ class SettingScreen extends StatelessWidget {
                     height: TSizes.spaceBtwItems,
                   ),
                   TSettingMenuTile(
-                    title: 'Load Data',
-                    subtitle: 'Upload data to your Cloud Firebase',
-                    icon: Iconsax.document_upload,
-                    onTap: (){
-                   ProductRepository.instance.uploadProductCategory(TDummyData.productCategory);
-                    }
-                  ),
+                      title: 'Load Data',
+                      subtitle: 'Upload data to your Cloud Firebase',
+                      icon: Iconsax.document_upload,
+                      onTap: () {
+                        ProductRepository.instance
+                            .uploadProductCategory(TDummyData.productCategory);
+                      }),
                   TSettingMenuTile(
                     title: 'Geolocation',
                     subtitle: 'Set recommendation based on location',
                     icon: Iconsax.location,
-                    trailing: Switch(value: true, onChanged: (value){},),
-
+                    trailing: Switch(
+                      value: true,
+                      onChanged: (value) {},
+                    ),
                   ),
                   TSettingMenuTile(
                     title: 'Safe Mode',
                     subtitle: 'Search result is safe for all ages',
                     icon: Iconsax.location,
-                    trailing: Switch(value: false, onChanged: (value){},),
-
+                    trailing: Switch(
+                      value: false,
+                      onChanged: (value) {},
+                    ),
                   ),
                   TSettingMenuTile(
                     title: 'HD Image Quality',
                     subtitle: 'Set image quality to be seen',
                     icon: Iconsax.image,
-                    trailing: Switch(value: false, onChanged: (value){},),
+                    trailing: Switch(
+                      value: false,
+                      onChanged: (value) {},
+                    ),
                   ),
-                  const SizedBox(height: TSizes.spaceBtwSections,),
+                  const SizedBox(
+                    height: TSizes.spaceBtwSections,
+                  ),
                   SizedBox(
                     width: double.infinity,
-                      child: OutlinedButton(onPressed: ()=>AuthenticationRepository.instance.logOut(), child: const Text('Logout'),),),
-                  const SizedBox(height: TSizes.spaceBtwSections * 2.5,),
+                    child: OutlinedButton(
+                      onPressed: () =>
+                          AuthenticationRepository.instance.logOut(),
+                      child: const Text('Logout'),
+                    ),
+                  ),
+                  const SizedBox(
+                    height: TSizes.spaceBtwSections * 2.5,
+                  ),
                 ],
               ),
             ),

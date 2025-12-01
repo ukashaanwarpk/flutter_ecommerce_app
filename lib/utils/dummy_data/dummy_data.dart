@@ -43,16 +43,16 @@ class TDummyData {
 
     static final List<BrandModel> brand = [
 
-      BrandModel(id: '1', image: TImages.nikeLogo, name: 'Nike', isFeatured: true, productsCount: 256),
-      BrandModel(id: '6', image: TImages.adidasLogo, name: 'Adidas', isFeatured: true, productsCount: 20),
-      BrandModel(id: '7', image: TImages.jordanLogo, name: 'Jordan', isFeatured: true,  productsCount: 15),
-      BrandModel(id: '4', image: TImages.pumaLogo, name: 'Puma', isFeatured: true, productsCount: 20),
-      BrandModel(id: '2', image: TImages.zaraLogo, name: 'Zara',  productsCount: 13),
-      BrandModel(id: '3', image: TImages.appleLogo, name: 'Apple',  productsCount: 10),
-      BrandModel(id: '8', image: TImages.kenwoodLogo, name: 'KenwoodLogo',  productsCount: 25),
-      BrandModel(id: '10', image: TImages.hermanMillerLogo, name: 'HermanMiller',  productsCount: 35),
-      BrandModel(id: '9', image: TImages.ikeaLogo, name: 'Ikea',  productsCount: 14),
-      BrandModel(id: '5',image: TImages.acerlogo, name: 'Acer',  productsCount: 7),
+      BrandModel(id: '1', image: "https://firebasestorage.googleapis.com/v0/b/ecommerce-app-a6d06.appspot.com/o/Brands%2Fassets%2Ficons%2Fbrands%2Fnike.png?alt=media&token=457c1bb4-28d6-4bdc-a31d-7d9759b7e78f", name: 'Nike', isFeatured: true, productsCount: 256),
+      BrandModel(id: '6', image: "https://firebasestorage.googleapis.com/v0/b/ecommerce-app-a6d06.appspot.com/o/Brands%2Fassets%2Ficons%2Fbrands%2Fadidas-logo.png?alt=media&token=27e38474-aefb-4702-b7de-4c151d427e38", name: 'Adidas', isFeatured: true, productsCount: 20),
+      BrandModel(id: '7', image: "https://firebasestorage.googleapis.com/v0/b/ecommerce-app-a6d06.appspot.com/o/Brands%2Fassets%2Ficons%2Fbrands%2Fjordan-logo.png?alt=media&token=50c777bc-41e9-4dde-8529-6009b435a385", name: 'Jordan', isFeatured: true,  productsCount: 15),
+      BrandModel(id: '4', image: "https://firebasestorage.googleapis.com/v0/b/ecommerce-app-a6d06.appspot.com/o/Brands%2Fassets%2Ficons%2Fbrands%2Fpuma-logo.png?alt=media&token=c22d7783-3ad9-4fd2-941a-ed729bdfa26b", name: 'Puma', isFeatured: true, productsCount: 20),
+      BrandModel(id: '2', image: "https://firebasestorage.googleapis.com/v0/b/ecommerce-app-a6d06.appspot.com/o/Brands%2Fassets%2Ficons%2Fbrands%2Fzara-logo.png?alt=media&token=3dbb6ebb-0126-4033-adfa-13582603bb61", name: 'Zara',  productsCount: 13),
+      BrandModel(id: '3', image: "https://firebasestorage.googleapis.com/v0/b/ecommerce-app-a6d06.appspot.com/o/Brands%2Fassets%2Ficons%2Fbrands%2Fapple-logo.png?alt=media&token=c33d7f17-57d6-4857-89d9-b13a21c2d8b4", name: 'Apple',  productsCount: 10),
+      BrandModel(id: '8', image: "https://firebasestorage.googleapis.com/v0/b/ecommerce-app-a6d06.appspot.com/o/Brands%2Fassets%2Ficons%2Fbrands%2Fkenwood-logo.png?alt=media&token=c663e06f-4025-4d5a-b534-91adcfa201bd", name: 'KenwoodLogo',  productsCount: 25),
+      BrandModel(id: '10', image: "https://firebasestorage.googleapis.com/v0/b/ecommerce-app-a6d06.appspot.com/o/Brands%2Fassets%2Ficons%2Fbrands%2Fherman-miller-logo.png?alt=media&token=2db178bb-b6af-4e17-be17-11c4a205082b", name: 'HermanMiller',  productsCount: 35),
+      BrandModel(id: '9', image: "https://firebasestorage.googleapis.com/v0/b/ecommerce-app-a6d06.appspot.com/o/Brands%2Fassets%2Ficons%2Fbrands%2Fikea_logo.png?alt=media&token=f0785632-76c7-4dfe-affb-51bf5f78a827", name: 'Ikea',  productsCount: 14),
+      BrandModel(id: '5',image: "https://firebasestorage.googleapis.com/v0/b/ecommerce-app-a6d06.appspot.com/o/Brands%2Fassets%2Ficons%2Fbrands%2Facer_logo.png?alt=media&token=2688af19-9fd2-4fbb-8c75-39ecb5f2230d", name: 'Acer',  productsCount: 7),
     ];
   // List of all Categories
 
